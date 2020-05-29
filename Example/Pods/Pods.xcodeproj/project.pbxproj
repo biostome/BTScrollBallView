@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D214AD9BCFAD80FC7385F5EDCAC3A4 /* Pods-BTScrollBallView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FB94C0D0D955A9611B19E862934A5E /* Pods-BTScrollBallView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FA9286A399FFBC3776BF0D76F45B12C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2DA1745392E7B58E1B31BCED7FED23FC /* BTScrollBallLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 540DC57BCAC8C06B63D5570658BBCF06 /* BTScrollBallLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39191CC02AD9B2223033441E3D4854D3 /* NSArray+BTNumbers.h in Headers */ = {isa = PBXBuildFile; fileRef = A614C94F8B3A8EB46505A9DBB93878C8 /* NSArray+BTNumbers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39334558DD047CD61893379BC80D12F2 /* BTScrollBallView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C24D3CD7DBB9768F0246A9A842985D9 /* BTScrollBallView.bundle */; };
+		3D1FD48D8FB981901D5B12221E932CAB /* Pods-BTScrollBallView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F56D12FEABBF914833584E2A936ED5 /* Pods-BTScrollBallView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		409B02F7F96054FF5B8EC8738B98BABB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4395639FBE69397E363E5142CF4F910F /* Pods-BTScrollBallView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E420087501C7F88C56E708BEC3219A /* Pods-BTScrollBallView_Example-dummy.m */; };
+		44F9D967618386E40CE796D2A2FA34D0 /* BTScrollBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 950A9110D0B6EA97E56238A4484C247A /* BTScrollBallView.m */; };
+		59AFF1718651DD58E9B8F11901969F2C /* BTScrollBallView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 200785CF10509F563D8FA3D8046AAFC5 /* BTScrollBallView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		798B470D8BA8FC8AD46CA4329814FEC3 /* BTScrollBallLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E6F8F998AEEAE08440AC9A2658072D /* BTScrollBallLayer.m */; };
+		A330EC53FDA53C6ADADE77A448CA3D86 /* history_ball_ssc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 584FA1C35CFE3DE5AEC193D01D562E51 /* history_ball_ssc@3x.png */; };
+		CFF5FCD3299121C0566AD82AF9A692DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D1BC2B73319EB5E54AAFB35DA6BD20C2 /* Pods-BTScrollBallView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A9D640271894D5CA9E9B0DD1F0FE6 /* Pods-BTScrollBallView_Tests-dummy.m */; };
+		E3BC2C422DD27DE58BF4558094F3D682 /* BTScrollBallView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1287CAA81EC90E0687F87A0AD98963FF /* BTScrollBallView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73546C023FD3D415E0F30DA72F70BBF /* BTScrollBallView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81654DA013389D152D3A3B9F914EEB13 /* BTScrollBallView-dummy.m */; };
+		F4ACC21E7997BF5FB77E655273A9203B /* history_ball_ssc_highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9763A2F2A2015B37E591F0FE311F7F /* history_ball_ssc_highlight@3x.png */; };
+		F76B96E5D20C76C909AE72C7DE6DEDCF /* NSArray+BTNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FAEC366377B01B8CFDFB63C6F03303 /* NSArray+BTNumbers.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57503DB5429EE6C9433460B84DF59AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3990DAFC550BE057229BA8115E327031;
+			remoteInfo = "BTScrollBallView-BTScrollBallView";
+		};
+		897A70505E0605AC0B6939676BC1B65C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A24DA691891614D7B716022A354DB95B;
+			remoteInfo = "Pods-BTScrollBallView_Example";
+		};
+		D2C0689D3DEA187A42097F3544E4B788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B70082F01F0AFED9948A740ECCC899;
+			remoteInfo = BTScrollBallView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F3E1011A626120AEB6CF16D019B488F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1287CAA81EC90E0687F87A0AD98963FF /* BTScrollBallView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTScrollBallView.h; path = BTScrollBallView/Classes/BTScrollBallView/BTScrollBallView.h; sourceTree = "<group>"; };
+		1609D7457B62DEE9A1FC7815BACE0F1D /* BTScrollBallView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTScrollBallView.debug.xcconfig; sourceTree = "<group>"; };
+		1A9763A2F2A2015B37E591F0FE311F7F /* history_ball_ssc_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "history_ball_ssc_highlight@3x.png"; path = "BTScrollBallView/Assets/history_ball_ssc_highlight@3x.png"; sourceTree = "<group>"; };
+		1D4DE868942C057F084C1A9152D73802 /* BTScrollBallView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTScrollBallView.release.xcconfig; sourceTree = "<group>"; };
+		200785CF10509F563D8FA3D8046AAFC5 /* BTScrollBallView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTScrollBallView-umbrella.h"; sourceTree = "<group>"; };
+		244C1BBB84E6C8EB063E261CCBC85A3C /* BTScrollBallView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTScrollBallView-prefix.pch"; sourceTree = "<group>"; };
+		287E76A5513F022F786B91012E20FC59 /* Pods-BTScrollBallView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTScrollBallView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		386DDF9C9C4A4865E145E034BCFE5186 /* BTScrollBallView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BTScrollBallView-Info.plist"; sourceTree = "<group>"; };
+		4300925BD3BBFEB3D78F98ABD764849A /* Pods-BTScrollBallView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTScrollBallView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		540DC57BCAC8C06B63D5570658BBCF06 /* BTScrollBallLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTScrollBallLayer.h; path = BTScrollBallView/Classes/BTScrollBallView/BTScrollBallLayer.h; sourceTree = "<group>"; };
+		584FA1C35CFE3DE5AEC193D01D562E51 /* history_ball_ssc@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "history_ball_ssc@3x.png"; path = "BTScrollBallView/Assets/history_ball_ssc@3x.png"; sourceTree = "<group>"; };
+		69FB94C0D0D955A9611B19E862934A5E /* Pods-BTScrollBallView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTScrollBallView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6A1A9D640271894D5CA9E9B0DD1F0FE6 /* Pods-BTScrollBallView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTScrollBallView_Tests-dummy.m"; sourceTree = "<group>"; };
+		6A40EEBB9B1453AFE0D20D985751856B /* Pods-BTScrollBallView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTScrollBallView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6B6540713AEA588995F40B576290C6A4 /* Pods-BTScrollBallView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTScrollBallView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		749689E042A5AAEF4C1C24A47D41BD5E /* Pods-BTScrollBallView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTScrollBallView_Example-Info.plist"; sourceTree = "<group>"; };
+		755A2EBCF3D04DF61C0ABB912DCA045F /* Pods-BTScrollBallView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTScrollBallView_Tests-Info.plist"; sourceTree = "<group>"; };
+		78E420087501C7F88C56E708BEC3219A /* Pods-BTScrollBallView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTScrollBallView_Example-dummy.m"; sourceTree = "<group>"; };
+		7C564B1D51795FCA233F68548353592C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		80AAB7421C89EFCB426FA17A001E43E6 /* ResourceBundle-BTScrollBallView-BTScrollBallView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BTScrollBallView-BTScrollBallView-Info.plist"; sourceTree = "<group>"; };
+		81654DA013389D152D3A3B9F914EEB13 /* BTScrollBallView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTScrollBallView-dummy.m"; sourceTree = "<group>"; };
+		92D476B9701FFB4AD0B429FF0093A785 /* Pods-BTScrollBallView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTScrollBallView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		939CEF10ED98BFBE42C2FBFA46A48CEE /* BTScrollBallView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTScrollBallView.framework; path = BTScrollBallView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		950A9110D0B6EA97E56238A4484C247A /* BTScrollBallView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTScrollBallView.m; path = BTScrollBallView/Classes/BTScrollBallView/BTScrollBallView.m; sourceTree = "<group>"; };
+		9C24D3CD7DBB9768F0246A9A842985D9 /* BTScrollBallView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BTScrollBallView.bundle; path = "BTScrollBallView-BTScrollBallView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00083F781833584413D91C922635E13 /* BTScrollBallView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BTScrollBallView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0FAEC366377B01B8CFDFB63C6F03303 /* NSArray+BTNumbers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BTNumbers.m"; path = "BTScrollBallView/Classes/BTScrollBallView/NSArray+BTNumbers.m"; sourceTree = "<group>"; };
+		A5F56D12FEABBF914833584E2A936ED5 /* Pods-BTScrollBallView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTScrollBallView_Example-umbrella.h"; sourceTree = "<group>"; };
+		A614C94F8B3A8EB46505A9DBB93878C8 /* NSArray+BTNumbers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BTNumbers.h"; path = "BTScrollBallView/Classes/BTScrollBallView/NSArray+BTNumbers.h"; sourceTree = "<group>"; };
+		AB31EDD10786E03F8483A9DA3EB29859 /* Pods-BTScrollBallView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTScrollBallView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC08B6CB7E3C654AFF2BF4F06AD4D4B3 /* Pods-BTScrollBallView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTScrollBallView_Example.modulemap"; sourceTree = "<group>"; };
+		AD626E4A02F99707633DCFF7C0785647 /* Pods-BTScrollBallView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTScrollBallView_Tests.modulemap"; sourceTree = "<group>"; };
+		B61B5F62590A3A62BF5C65B04F257A7C /* BTScrollBallView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTScrollBallView.modulemap; sourceTree = "<group>"; };
+		B7AAE10317702E2EF80303451F96AFB5 /* Pods_BTScrollBallView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTScrollBallView_Tests.framework; path = "Pods-BTScrollBallView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC411F7E4CABECA319EC1B879B8E50EA /* Pods-BTScrollBallView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTScrollBallView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C5F323C7D958EB62C609A5CFBA5B4CF4 /* Pods-BTScrollBallView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTScrollBallView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF33375B2A79E318BCF8E1DC44DE8431 /* Pods-BTScrollBallView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTScrollBallView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DFAE6FF4CA40901668052D5A5C32C089 /* Pods_BTScrollBallView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTScrollBallView_Example.framework; path = "Pods-BTScrollBallView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E6F8F998AEEAE08440AC9A2658072D /* BTScrollBallLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTScrollBallLayer.m; path = BTScrollBallView/Classes/BTScrollBallView/BTScrollBallLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		026E3477AA3848CA7AB6E339893651FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409B02F7F96054FF5B8EC8738B98BABB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A76EC30CA4414DB9A805C432888E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF5FCD3299121C0566AD82AF9A692DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6978B9A19BB8C9C2F04C030C884ECA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC39D9502A2845D66D3435EA35A0A51A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA9286A399FFBC3776BF0D76F45B12C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E7A34D9215CB68DD1D85D3B9F40849F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				584FA1C35CFE3DE5AEC193D01D562E51 /* history_ball_ssc@3x.png */,
+				1A9763A2F2A2015B37E591F0FE311F7F /* history_ball_ssc_highlight@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		595116EACD1C4B6BA2B40D0B77486991 /* BTScrollBallView */ = {
+			isa = PBXGroup;
+			children = (
+				540DC57BCAC8C06B63D5570658BBCF06 /* BTScrollBallLayer.h */,
+				F2E6F8F998AEEAE08440AC9A2658072D /* BTScrollBallLayer.m */,
+				1287CAA81EC90E0687F87A0AD98963FF /* BTScrollBallView.h */,
+				950A9110D0B6EA97E56238A4484C247A /* BTScrollBallView.m */,
+				A614C94F8B3A8EB46505A9DBB93878C8 /* NSArray+BTNumbers.h */,
+				A0FAEC366377B01B8CFDFB63C6F03303 /* NSArray+BTNumbers.m */,
+				8444E090B7CBDCE87922278026E19257 /* Pod */,
+				0E7A34D9215CB68DD1D85D3B9F40849F /* Resources */,
+				7A20318AD23A68889628DDB86DD5C1EB /* Support Files */,
+			);
+			name = BTScrollBallView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7A20318AD23A68889628DDB86DD5C1EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B61B5F62590A3A62BF5C65B04F257A7C /* BTScrollBallView.modulemap */,
+				81654DA013389D152D3A3B9F914EEB13 /* BTScrollBallView-dummy.m */,
+				386DDF9C9C4A4865E145E034BCFE5186 /* BTScrollBallView-Info.plist */,
+				244C1BBB84E6C8EB063E261CCBC85A3C /* BTScrollBallView-prefix.pch */,
+				200785CF10509F563D8FA3D8046AAFC5 /* BTScrollBallView-umbrella.h */,
+				1609D7457B62DEE9A1FC7815BACE0F1D /* BTScrollBallView.debug.xcconfig */,
+				1D4DE868942C057F084C1A9152D73802 /* BTScrollBallView.release.xcconfig */,
+				80AAB7421C89EFCB426FA17A001E43E6 /* ResourceBundle-BTScrollBallView-BTScrollBallView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BTScrollBallView";
+			sourceTree = "<group>";
+		};
+		7EBBC8E12D8D042F8D673BFD9CC0AA93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C24D3CD7DBB9768F0246A9A842985D9 /* BTScrollBallView.bundle */,
+				939CEF10ED98BFBE42C2FBFA46A48CEE /* BTScrollBallView.framework */,
+				DFAE6FF4CA40901668052D5A5C32C089 /* Pods_BTScrollBallView_Example.framework */,
+				B7AAE10317702E2EF80303451F96AFB5 /* Pods_BTScrollBallView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8444E090B7CBDCE87922278026E19257 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A00083F781833584413D91C922635E13 /* BTScrollBallView.podspec */,
+				0F3E1011A626120AEB6CF16D019B488F /* LICENSE */,
+				7C564B1D51795FCA233F68548353592C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AAD24B01346790BF26491F93ECBA1BCA /* Pods-BTScrollBallView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AD626E4A02F99707633DCFF7C0785647 /* Pods-BTScrollBallView_Tests.modulemap */,
+				4300925BD3BBFEB3D78F98ABD764849A /* Pods-BTScrollBallView_Tests-acknowledgements.markdown */,
+				6B6540713AEA588995F40B576290C6A4 /* Pods-BTScrollBallView_Tests-acknowledgements.plist */,
+				6A1A9D640271894D5CA9E9B0DD1F0FE6 /* Pods-BTScrollBallView_Tests-dummy.m */,
+				755A2EBCF3D04DF61C0ABB912DCA045F /* Pods-BTScrollBallView_Tests-Info.plist */,
+				69FB94C0D0D955A9611B19E862934A5E /* Pods-BTScrollBallView_Tests-umbrella.h */,
+				C5F323C7D958EB62C609A5CFBA5B4CF4 /* Pods-BTScrollBallView_Tests.debug.xcconfig */,
+				6A40EEBB9B1453AFE0D20D985751856B /* Pods-BTScrollBallView_Tests.release.xcconfig */,
+			);
+			name = "Pods-BTScrollBallView_Tests";
+			path = "Target Support Files/Pods-BTScrollBallView_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DDA916731CB3F54265F8C913F0AE8980 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7EBBC8E12D8D042F8D673BFD9CC0AA93 /* Products */,
+				E54F35FDCF3C31E19DC7D3636F031081 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA916731CB3F54265F8C913F0AE8980 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				595116EACD1C4B6BA2B40D0B77486991 /* BTScrollBallView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E54F35FDCF3C31E19DC7D3636F031081 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D86807C6149DD8A9113FDE935B5F32 /* Pods-BTScrollBallView_Example */,
+				AAD24B01346790BF26491F93ECBA1BCA /* Pods-BTScrollBallView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E9D86807C6149DD8A9113FDE935B5F32 /* Pods-BTScrollBallView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AC08B6CB7E3C654AFF2BF4F06AD4D4B3 /* Pods-BTScrollBallView_Example.modulemap */,
+				287E76A5513F022F786B91012E20FC59 /* Pods-BTScrollBallView_Example-acknowledgements.markdown */,
+				AB31EDD10786E03F8483A9DA3EB29859 /* Pods-BTScrollBallView_Example-acknowledgements.plist */,
+				78E420087501C7F88C56E708BEC3219A /* Pods-BTScrollBallView_Example-dummy.m */,
+				92D476B9701FFB4AD0B429FF0093A785 /* Pods-BTScrollBallView_Example-frameworks.sh */,
+				749689E042A5AAEF4C1C24A47D41BD5E /* Pods-BTScrollBallView_Example-Info.plist */,
+				A5F56D12FEABBF914833584E2A936ED5 /* Pods-BTScrollBallView_Example-umbrella.h */,
+				BC411F7E4CABECA319EC1B879B8E50EA /* Pods-BTScrollBallView_Example.debug.xcconfig */,
+				DF33375B2A79E318BCF8E1DC44DE8431 /* Pods-BTScrollBallView_Example.release.xcconfig */,
+			);
+			name = "Pods-BTScrollBallView_Example";
+			path = "Target Support Files/Pods-BTScrollBallView_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E387E2FD9222BBD8F5CAB8D97DBF6C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D214AD9BCFAD80FC7385F5EDCAC3A4 /* Pods-BTScrollBallView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7C902894AD8F298E61160081358171 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA1745392E7B58E1B31BCED7FED23FC /* BTScrollBallLayer.h in Headers */,
+				59AFF1718651DD58E9B8F11901969F2C /* BTScrollBallView-umbrella.h in Headers */,
+				E3BC2C422DD27DE58BF4558094F3D682 /* BTScrollBallView.h in Headers */,
+				39191CC02AD9B2223033441E3D4854D3 /* NSArray+BTNumbers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE535E15742582B64E943CF113A19A7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1FD48D8FB981901D5B12221E932CAB /* Pods-BTScrollBallView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38EB3F7352FD106337B8CCD612C3FE7F /* Pods-BTScrollBallView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B906639585B7D9FBB67739C82DECFE4C /* Build configuration list for PBXNativeTarget "Pods-BTScrollBallView_Tests" */;
+			buildPhases = (
+				3E387E2FD9222BBD8F5CAB8D97DBF6C5 /* Headers */,
+				39106F93D814CF581B6FA3E0C4528A88 /* Sources */,
+				DC39D9502A2845D66D3435EA35A0A51A /* Frameworks */,
+				21C2DD80F649C29649881ACBBBE4B99B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDCB4E22D185D5F467B0623B5B00FAD /* PBXTargetDependency */,
+			);
+			name = "Pods-BTScrollBallView_Tests";
+			productName = "Pods-BTScrollBallView_Tests";
+			productReference = B7AAE10317702E2EF80303451F96AFB5 /* Pods_BTScrollBallView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3990DAFC550BE057229BA8115E327031 /* BTScrollBallView-BTScrollBallView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94BC2621C6384893E58646936A28A80 /* Build configuration list for PBXNativeTarget "BTScrollBallView-BTScrollBallView" */;
+			buildPhases = (
+				EE48A7C960A4340B865C3BD129C99CF4 /* Sources */,
+				6978B9A19BB8C9C2F04C030C884ECA33 /* Frameworks */,
+				99C396B62CF14C6B4895F0B19547458C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BTScrollBallView-BTScrollBallView";
+			productName = "BTScrollBallView-BTScrollBallView";
+			productReference = 9C24D3CD7DBB9768F0246A9A842985D9 /* BTScrollBallView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A24DA691891614D7B716022A354DB95B /* Pods-BTScrollBallView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E31301607DC85746CED931A95670F8 /* Build configuration list for PBXNativeTarget "Pods-BTScrollBallView_Example" */;
+			buildPhases = (
+				EE535E15742582B64E943CF113A19A7F /* Headers */,
+				6CE72A16FE4D3310CD5E4928881B4233 /* Sources */,
+				026E3477AA3848CA7AB6E339893651FF /* Frameworks */,
+				E5268F3D42A97841202A2DFED42CEFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14FA1DF3010E3D119DB27C130D17F5FD /* PBXTargetDependency */,
+			);
+			name = "Pods-BTScrollBallView_Example";
+			productName = "Pods-BTScrollBallView_Example";
+			productReference = DFAE6FF4CA40901668052D5A5C32C089 /* Pods_BTScrollBallView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2B70082F01F0AFED9948A740ECCC899 /* BTScrollBallView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA76C23EDE4BBD72DF9FF3732CA76C7 /* Build configuration list for PBXNativeTarget "BTScrollBallView" */;
+			buildPhases = (
+				CD7C902894AD8F298E61160081358171 /* Headers */,
+				37DF1A85D46142D397378D2E309BA3D4 /* Sources */,
+				49A76EC30CA4414DB9A805C432888E8C /* Frameworks */,
+				A63381F4D7FF25F75B803A0ECD28FB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F7D35C94CECF1D0F6A9A8C08586888E /* PBXTargetDependency */,
+			);
+			name = BTScrollBallView;
+			productName = BTScrollBallView;
+			productReference = 939CEF10ED98BFBE42C2FBFA46A48CEE /* BTScrollBallView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7EBBC8E12D8D042F8D673BFD9CC0AA93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2B70082F01F0AFED9948A740ECCC899 /* BTScrollBallView */,
+				3990DAFC550BE057229BA8115E327031 /* BTScrollBallView-BTScrollBallView */,
+				A24DA691891614D7B716022A354DB95B /* Pods-BTScrollBallView_Example */,
+				38EB3F7352FD106337B8CCD612C3FE7F /* Pods-BTScrollBallView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21C2DD80F649C29649881ACBBBE4B99B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C396B62CF14C6B4895F0B19547458C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A330EC53FDA53C6ADADE77A448CA3D86 /* history_ball_ssc@3x.png in Resources */,
+				F4ACC21E7997BF5FB77E655273A9203B /* history_ball_ssc_highlight@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63381F4D7FF25F75B803A0ECD28FB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39334558DD047CD61893379BC80D12F2 /* BTScrollBallView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5268F3D42A97841202A2DFED42CEFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37DF1A85D46142D397378D2E309BA3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798B470D8BA8FC8AD46CA4329814FEC3 /* BTScrollBallLayer.m in Sources */,
+				E73546C023FD3D415E0F30DA72F70BBF /* BTScrollBallView-dummy.m in Sources */,
+				44F9D967618386E40CE796D2A2FA34D0 /* BTScrollBallView.m in Sources */,
+				F76B96E5D20C76C909AE72C7DE6DEDCF /* NSArray+BTNumbers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39106F93D814CF581B6FA3E0C4528A88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BC2B73319EB5E54AAFB35DA6BD20C2 /* Pods-BTScrollBallView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE72A16FE4D3310CD5E4928881B4233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4395639FBE69397E363E5142CF4F910F /* Pods-BTScrollBallView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE48A7C960A4340B865C3BD129C99CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14FA1DF3010E3D119DB27C130D17F5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BTScrollBallView;
+			target = C2B70082F01F0AFED9948A740ECCC899 /* BTScrollBallView */;
+			targetProxy = D2C0689D3DEA187A42097F3544E4B788 /* PBXContainerItemProxy */;
+		};
+		1F7D35C94CECF1D0F6A9A8C08586888E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BTScrollBallView-BTScrollBallView";
+			target = 3990DAFC550BE057229BA8115E327031 /* BTScrollBallView-BTScrollBallView */;
+			targetProxy = 57503DB5429EE6C9433460B84DF59AE9 /* PBXContainerItemProxy */;
+		};
+		DDDCB4E22D185D5F467B0623B5B00FAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BTScrollBallView_Example";
+			target = A24DA691891614D7B716022A354DB95B /* Pods-BTScrollBallView_Example */;
+			targetProxy = 897A70505E0605AC0B6939676BC1B65C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06A81C0994F920BA049C2AFD982700BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A40EEBB9B1453AFE0D20D985751856B /* Pods-BTScrollBallView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BTScrollBallView_Tests/Pods-BTScrollBallView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BTScrollBallView_Tests/Pods-BTScrollBallView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		280DCEA83EB05F2F4D91646E9358D0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F323C7D958EB62C609A5CFBA5B4CF4 /* Pods-BTScrollBallView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BTScrollBallView_Tests/Pods-BTScrollBallView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BTScrollBallView_Tests/Pods-BTScrollBallView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BC1328937A921757A2688EB8B4708FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF33375B2A79E318BCF8E1DC44DE8431 /* Pods-BTScrollBallView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BTScrollBallView_Example/Pods-BTScrollBallView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BTScrollBallView_Example/Pods-BTScrollBallView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		333B6C20D17D6BF688A404041EB404E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1609D7457B62DEE9A1FC7815BACE0F1D /* BTScrollBallView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BTScrollBallView";
+				IBSC_MODULE = BTScrollBallView;
+				INFOPLIST_FILE = "Target Support Files/BTScrollBallView/ResourceBundle-BTScrollBallView-BTScrollBallView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BTScrollBallView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		575C7F81836B779FE9A2A88C78D9B231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4DE868942C057F084C1A9152D73802 /* BTScrollBallView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTScrollBallView/BTScrollBallView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTScrollBallView/BTScrollBallView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTScrollBallView/BTScrollBallView.modulemap";
+				PRODUCT_MODULE_NAME = BTScrollBallView;
+				PRODUCT_NAME = BTScrollBallView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8793B645995B7559495828D6FFB4BDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1609D7457B62DEE9A1FC7815BACE0F1D /* BTScrollBallView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTScrollBallView/BTScrollBallView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTScrollBallView/BTScrollBallView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTScrollBallView/BTScrollBallView.modulemap";
+				PRODUCT_MODULE_NAME = BTScrollBallView;
+				PRODUCT_NAME = BTScrollBallView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B118F2247FFF580E0A74BEECD72666A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4DE868942C057F084C1A9152D73802 /* BTScrollBallView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BTScrollBallView";
+				IBSC_MODULE = BTScrollBallView;
+				INFOPLIST_FILE = "Target Support Files/BTScrollBallView/ResourceBundle-BTScrollBallView-BTScrollBallView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BTScrollBallView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DF65917857DFE23AAD5F054254F570DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC411F7E4CABECA319EC1B879B8E50EA /* Pods-BTScrollBallView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BTScrollBallView_Example/Pods-BTScrollBallView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BTScrollBallView_Example/Pods-BTScrollBallView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E31301607DC85746CED931A95670F8 /* Build configuration list for PBXNativeTarget "Pods-BTScrollBallView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF65917857DFE23AAD5F054254F570DB /* Debug */,
+				2BC1328937A921757A2688EB8B4708FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B906639585B7D9FBB67739C82DECFE4C /* Build configuration list for PBXNativeTarget "Pods-BTScrollBallView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280DCEA83EB05F2F4D91646E9358D0D7 /* Debug */,
+				06A81C0994F920BA049C2AFD982700BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA76C23EDE4BBD72DF9FF3732CA76C7 /* Build configuration list for PBXNativeTarget "BTScrollBallView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8793B645995B7559495828D6FFB4BDC5 /* Debug */,
+				575C7F81836B779FE9A2A88C78D9B231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F94BC2621C6384893E58646936A28A80 /* Build configuration list for PBXNativeTarget "BTScrollBallView-BTScrollBallView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333B6C20D17D6BF688A404041EB404E7 /* Debug */,
+				B118F2247FFF580E0A74BEECD72666A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

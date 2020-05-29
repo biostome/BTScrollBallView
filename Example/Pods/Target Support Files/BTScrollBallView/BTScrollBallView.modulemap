@@ -1,0 +1,6 @@
+framework module BTScrollBallView {
+  umbrella header "BTScrollBallView-umbrella.h"
+
+  export *
+  module * { export * }
+}

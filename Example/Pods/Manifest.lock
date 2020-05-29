@@ -1,0 +1,16 @@
+PODS:
+  - BTScrollBallView (0.1.0)
+
+DEPENDENCIES:
+  - BTScrollBallView (from `../`)
+
+EXTERNAL SOURCES:
+  BTScrollBallView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BTScrollBallView: 921f8385dc98fae266a22c872a6ab6c304ae9b4a
+
+PODFILE CHECKSUM: 19af55a2b8b8e2f0b8122bcbff7aa095afb89850
+
+COCOAPODS: 1.9.1
