@@ -69,15 +69,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param scrollBall 视图
 - (CGFloat)leadingOfSectionsInScrollBall:(BTScrollBallView *)scrollBall;
 
-/// 动画结束回调代理方法
-/// @param scrollBall 视图
-/// @param completion 动画是否结束
-- (void)scrollBall:(BTScrollBallView *)scrollBall animatedCompletion:(BOOL)completion;
-
-/// 动画是否被停止回调
-/// @param scrollBall 视图
-/// @param stoped 动画是否停止
-- (void)scrollBall:(BTScrollBallView *)scrollBall animationStoped:(BOOL)stoped;
 @end
 
 @interface BTScrollBallView : UIView

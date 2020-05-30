@@ -124,14 +124,6 @@
     return 0;
 }
 
-- (void)scrollBall:(BTScrollBallView *)scrollBall animatedCompletion:(BOOL)completion{
-    completion == YES ? NSLog(@"动画结束") : NSLog(@"动画结束失败");
-}
-
-- (void)scrollBall:(BTScrollBallView *)scrollBall animationStoped:(BOOL)stoped{
-    stoped == YES ? NSLog(@"动画停止") : NSLog(@"动画停止失败");
-}
-
 - (BTScrollBallView *)scrollBall{
     if (!_scrollBall) {
         _scrollBall = [[BTScrollBallView alloc]init];
