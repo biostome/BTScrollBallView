@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98401847AFE5DC41F9E87C18 /* Pods-BTScrollBallView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTScrollBallView_Tests.release.xcconfig"; path = "Target Support Files/Pods-BTScrollBallView_Tests/Pods-BTScrollBallView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A2CEBCCE4195976559572057 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C71F77D01F1167FDBD6386D8 /* BTScrollBallView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BTScrollBallView.podspec; path = ../BTScrollBallView.podspec; sourceTree = "<group>"; };
+		C71F77D01F1167FDBD6386D8 /* BTScrollBallView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BTScrollBallView.podspec; path = ../BTScrollBallView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

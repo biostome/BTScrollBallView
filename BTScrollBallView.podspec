@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BTScrollBallView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'a scroll ball view, like slot machine scorll animate effect'
 
 # This description is used to generate tags and improve search results.
