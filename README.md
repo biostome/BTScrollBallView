@@ -6,10 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/BTScrollBallView.svg?style=flat)](https://cocoapods.org/pods/BTScrollBallView)
 
 ## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+![效果](https://github.com/biostome/BTScrollBallView/blob/master/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B62020-05-30%20%E4%B8%8A%E5%8D%8812.31.36.gif)
 
 ## Installation
 
