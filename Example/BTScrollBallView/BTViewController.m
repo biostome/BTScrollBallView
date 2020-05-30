@@ -32,8 +32,10 @@
 
 - (void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
-    self.scrollBall.frame = CGRectMake(10, 100, 250, 50);
-    self.scrollBall1.frame = CGRectMake(10, 200, 250, 50);
+    CGFloat x = (CGRectGetWidth(self.view.frame)-250)/2.0;
+    self.scrollBall.frame = CGRectMake(x, 100, 250, 50);
+    self.scrollBall1.frame = CGRectMake(x, 200, 250, 50);
+    
 }
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
